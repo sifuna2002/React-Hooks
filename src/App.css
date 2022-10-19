@@ -9,7 +9,6 @@ div{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 10%;
 }
 button{
     margin: 10px;
