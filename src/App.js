@@ -17,11 +17,14 @@ function App() {
     setTheme("green")
   }
   return (
-    <div>
-      <button onClick={decrementCount}>-</button>
-      <span>{count}</span>
-      <span>{theme}</span>
-      <button onClick={incrementCount}>+</button>
+    <div className="container">
+      <h1>Use Sate Hook</h1>
+      <div>
+        <button onClick={decrementCount}>-</button>
+        <span>{count}</span>
+        <span>{theme}</span>
+        <button onClick={incrementCount}>+</button>
+    </div>
     </div>
   );
 }
