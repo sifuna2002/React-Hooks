@@ -1,5 +1,6 @@
 import { useState } from "react"
 import './App.css'
+import UseEffect from "./UseEffect"
 
 function App() {
   const [count, setCount] = useState(() => {
@@ -19,12 +20,14 @@ function App() {
   return (
     <div className="container">
       <h1>Use Sate Hook</h1>
-      <div>
+      <div className="counter">
         <button onClick={decrementCount}>-</button>
         <span>{count}</span>
         <span>{theme}</span>
         <button onClick={incrementCount}>+</button>
-    </div>
+      </div>
+      
+      <UseEffect />
     </div>
   );
 }
