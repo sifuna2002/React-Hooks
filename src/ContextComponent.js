@@ -13,7 +13,7 @@ function ContextComponent() {
 
   return (
     <div>
-        <h1>Context Component</h1>
+        <h1>useContext Hook</h1>
         <button onClick={toggleTheme}>Toggle Theme</button>
         <div style={themeStyles}>Function Theme</div>
         
