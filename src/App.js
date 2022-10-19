@@ -1,5 +1,7 @@
 import { useState } from "react"
 import './App.css'
+import ContextComponent from "./ContextComponent"
+import { ThemeProvider } from "./ThemeContext"
 import UseEffect from "./UseEffect"
 
 function App() {
@@ -28,6 +30,9 @@ function App() {
       </div>
       
       <UseEffect />
+      <ThemeProvider>
+        <ContextComponent />
+      </ThemeProvider>
     </div>
   );
 }
